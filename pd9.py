@@ -32,7 +32,7 @@ except Exception:
 SEED = 39
 np.random.seed(SEED)
 
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7hh_4592_k27.csv"
+CSV_PATH = "data/loto7hh_4592_k27.csv"
 COLS = ["Num1", "Num2", "Num3", "Num4", "Num5", "Num6", "Num7"]
 FEATURE_COLS = [f"f{i+1}" for i in range(7)]
 
